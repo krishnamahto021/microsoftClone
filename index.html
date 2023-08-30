@@ -3,43 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles.css" />
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
   </head>
   <body>
-    <div class="navBar flex justify-between items-center m-2 p-1 ">
-        <div class="hamBurger md:hidden">
-            <img src="/assets/hamburger.png" alt="menu" class="w-8">
-        </div>
+    <div class="navBar flex justify-between items-center m-2 p-1">
+      <div class="hamBurger md:hidden">
+        <img src="/assets/hamburger.png" alt="menu" class="w-8" />
+      </div>
 
-        <div class="search flex space-x-1 justify-evenly items-center md:flex-row-reverse md:-m-8 p-1">
-            <img src="/assets/search.png" alt="search" class="w-8">
+      <div
+        class="search flex space-x-1 justify-evenly items-center md:flex-row-reverse md:-m-8 p-1"
+      >
+        <img src="/assets/search.png" alt="search" class="w-8" />
 
-            <img src="/assets/logo.png" alt="Microsoft" class="w-2/3">
+        <img src="/assets/logo.png" alt="Microsoft" class="w-2/3" />
+      </div>
 
-        </div>
+      <div
+        class="features flex flex-col space-x-1 cursor-pointer text-sm absolute -translate-x-24 md:flex-row md:translate-x-72 md:-ml-12 md:space-x-2 md:justify-evenly lg:text-xl lg:space-x-4 lg:justify-evenly lg:ml-4 xl:text-2xl xl:ml-7 xl:space-x-6 2xl:space-x-8 2xl:ml-20"
+      >
+        <div class="feature">Microsoft 365</div>
+        <div class="feature">Teams</div>
+        <div class="feature">Windows</div>
+        <div class="feature">Surface</div>
+        <div class="feature">Xbox</div>
+        <div class="feature">Support</div>
+        <div class="feature underline">All Microsoft</div>
+      </div>
 
-        <div class="features flex flex-col space-x-1 cursor-pointer text-sm absolute  -translate-x-24 md:flex-row 
-        md:translate-x-72 md:-ml-12  md:space-x-2 md:justify-evenly lg:text-xl lg:space-x-4 lg:justify-evenly lg:ml-4 xl:text-2xl xl:ml-7 xl:space-x-6 2xl:space-x-8 2xl:ml-20">
-            <div class="feature">Microsoft 365</div>
-            <div class="feature">Teams</div>
-            <div class="feature">Windows</div>
-            <div class="feature">Surface</div>
-            <div class="feature">Xbox</div>
-            <div class="feature">Support</div>
-            <div class="feature underline">
-                All Microsoft
-            </div>
+      <div class="cart flex space-x-1 justify-between md:space-x-3">
+        <img src="/assets/cart.png" alt="cart" class="w-8" />
 
-        </div>
-
-        <div class="cart flex space-x-1 justify-between md:space-x-3" >    
-            <img src="/assets/cart.png" alt="cart" class="w-8">
-
-            <img src="/assets/user.png" alt="user" class="w-8">
-
-        </div>
-
+        <img src="/assets/user.png" alt="user" class="w-8" />
+      </div>
     </div>
+
+    <div class="slider flex flex-col  lg:bg-gray-100 lg:flex-row lg:items-center">
+      <div class="imageContainer">
+        <img src="/assets/laptop.webp" alt="laptop" />
+      </div>
+      <div class="textContainer -mt-1 p-1 shadow-lg lg:shadow-none">
+        <h1 class="font-bold">Surface Laptop 5</h1>
+        <div class="description">
+          Sophisticated style and multitasking speed powered by 12th Gen Intel®
+          Core, with Windows 11
+        </div>
+
+        <div class="learnMore mt-2">
+          <button class="bg-blue-500 p-1 font-semibold text-white">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="items grid gap-2 grid-cols-1 mt-6 p-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div class="card flex flex-col items-center">
+        <img src="/assets/microsoft.webp" alt="microsoft 365" >
+
+        <a href="#" class="underline text-blue-600 text-lg font-semibold">
+          Choose your Microsoft 365
+        </a>
+
+      </div>
+
+      <div class="card flex flex-col items-center ">
+        <img src="/assets/surface.webp" alt="microsoft 365" >
+
+        <a href="#" class="underline text-blue-600 text-lg font-semibold">
+          Explore Surface Device
+        </a>
+
+      </div>
+
+      <div class="card flex flex-col items-center">
+        <img src="/assets/games.webp" alt="xbox" >
+
+        <a href="#" class="underline text-blue-600 text-lg font-semibold">
+          Buy Xbox games and consoles
+        </a>
+
+      </div>
+
+      <div class="card flex flex-col items-center">
+        <img src="/assets/microsoft.webp" alt="microsoft 365" >
+
+        <a href="#" class="underline text-blue-600 text-lg font-semibold">
+          Get Windows 11
+        </a>
+
+      </div>
+    </div>
+
+
   </body>
 </html>
